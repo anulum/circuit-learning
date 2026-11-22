@@ -1,0 +1,19 @@
+{
+  "creators": [
+    {
+      "affiliation": "ANULUM",
+      "name": "Šotek, Miroslav",
+      "orcid": "0009-0009-3560-0851"
+    }
+  ],
+  "description": "Architecture-only repository validation tooling and design for the governed learning of circuit design processes: the process model inventory, grader bundle specifications, learning study templates and the circuit graph artefact contract. No model inventory, grader bundle, study, promotion record, registered record format or trained model is released.",
+  "keywords": [
+    "design process learning",
+    "model evaluation",
+    "held-out grading",
+    "evidence provenance"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "title": "Circuit Learning",
+  "upload_type": "software"
+}
