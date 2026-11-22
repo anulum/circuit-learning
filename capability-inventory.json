@@ -2,11 +2,11 @@
   "capabilities": [],
   "claims": [],
   "evidence_maturity": "architecture_only",
-  "lifecycle": "local_scaffold",
+  "lifecycle": "public_repository",
   "qualified_owned_schema_ids": [],
   "repository_name": "CIRCUIT-LEARNING",
   "source_metadata": {
     "path": "repository-domain.json",
-    "sha256": "b5b3a681d9e9547e8d0cbe12a9964f518a0c36e5b67421125e5178981e70a0ef"
+    "sha256": "0171de0660f2664b3a44b526ce954a717d1c689aa50eda747706927252081150"
   }
 }

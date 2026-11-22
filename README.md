@@ -12,6 +12,8 @@ CIRCUIT-LEARNING — repository foundation
 
 **Two different repositories.** Circuit Learning is the learning application of the circuit design process. It is built on DIRECTOR-AI and decides how models that help design circuits are studied, graded, promoted and rolled back. It is not SC-NC Learn, which trains spiking networks on chip.
 
+Circuit Learning is part of the **SC Neuromorphic Computing Systems** group (SC-NEUROMORPHIC-COMPUTING-SYSTEMS). The [group and project map](https://github.com/anulum/sc-neurocore/blob/main/docs/ecosystem.md) shows the whole programme and where this repository sits in it.
+
 **What this project is not:**
 - It trains nothing itself.
 - It is never a sign-off verifier.

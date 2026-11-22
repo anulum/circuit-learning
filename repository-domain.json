@@ -3,13 +3,14 @@
   "claims": [],
   "domain_runtime_dependencies": [],
   "evidence_maturity": "architecture_only",
-  "lifecycle": "local_scaffold",
+  "lifecycle": "public_repository",
   "owner_group": "SC-NEUROMORPHIC-COMPUTING-SYSTEMS",
   "planned_owned_schema_ids": [
     "circuit_learning.process_model_inventory.v1",
     "circuit_learning.circuit_grader_bundle_spec.v1",
     "circuit_learning.learning_study_template.v1"
   ],
+  "public_remote": "https://github.com/anulum/circuit-learning",
   "qualified_owned_schema_ids": [],
   "repository_name": "CIRCUIT-LEARNING",
   "tooling_python": {
