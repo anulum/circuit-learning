@@ -31,7 +31,7 @@ The metadata keeps domain capabilities, claims and qualified formats empty.
 1. **The inventory** is generated from the operation profiles of every circuit repository and the slots bound in each release. CI checks it against those profiles. It is never maintained by hand.
 2. **Grader bundles** are built per reward family. Each family has two bundles:
    - **a training bundle,** which a training role may read;
-   - **a held-out bundle,** which is sealed in custody and frozen before a study. Its items are checked against every training bundle of the same family for near-duplicates, and zero overlap is required.
+   - **a held-out bundle,** which is sealed in custody and frozen before a study. Its items are checked against every training bundle of the same family for near-duplicates. The check must detect none, for the declared kinds of edit, each at a stated lower confidence bound on recall; kinds it does not cover are listed as limits.
 3. **A study** is fixed before its first look. Its terms set:
    - the deterministic reference;
    - the arms;

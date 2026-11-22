@@ -46,7 +46,7 @@ On-chip learning in spiking hardware is a different subject with a different own
 
 **What domain support requires:**
 - a generated inventory checked in CI;
-- sealed held-out bundles with zero near-duplicate overlap;
+- sealed held-out bundles in which the near-duplicate check detects no overlap with the training bundles, at a stated recall;
 - studies fixed before their first look;
 - a no-model path for every operation.
 
